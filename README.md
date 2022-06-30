@@ -19,8 +19,9 @@ socket type to get the packets. A raw socket provides access to the underlying p
 socket abstractions. Since raw sockets are part of the internet socket API, they can only be used to
 generate and receive IP packets.
 
-a sample output while connecting google.com is as follows: 
-![Output](https://imgur.com/a/aXTIuTw)
+A sample output while connecting google.com is as follows:
+
+![Output](https://i.imgur.com/r9LBBzR.png)
 
 # Installation
 
