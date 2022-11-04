@@ -23,7 +23,7 @@ There are several command line arguments to have different results:
 
 A sample output while connecting google.com is as follows:
 
-![Output](https://imgur.com/U37EOYp)
+![Output](https://i.imgur.com/U37EOYp.png)
 
 # Installation
 
