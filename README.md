@@ -15,11 +15,11 @@ When a much larger network is involved, utilizing numerous connected computers a
 
 ## How does this project work?
 There are several command line arguments to have different results:
--i / --interface: Define the interface to sniff on.
--f / --filter: Filter to apply to the sniffing.
--o / --output: Define the name of the output file.
--s / --show: Show the sniffed packets in terminal.
--v / --verbose: Verbose mode.
+* -i / --interface: Define the interface to sniff on.
+* -f / --filter: Filter to apply to the sniffing.
+* -o / --output: Define the name of the output file.
+* -s / --show: Show the sniffed packets in terminal.
+* -v / --verbose: Verbose mode.
 
 A sample output while connecting google.com is as follows:
 
