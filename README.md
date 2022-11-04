@@ -14,14 +14,16 @@ Hackers will typically use one of two different methods of sniffing to surreptit
 When a much larger network is involved, utilizing numerous connected computers and network switches to direct traffic only to specific devices, passive monitoring simply won’t provide access to all network traffic. In such a case, sniffing won’t be helpful for either legitimate or illegitimate purposes. Hackers will be forced to bypass the constraints created by the network switches. This requires active sniffing, which adds further traffic to the network, and in turn makes it detectable to network security tools.
 
 ## How does this project work?
-Packet sniffer in Python can be created with the help socket module. We can use the raw
-socket type to get the packets. A raw socket provides access to the underlying protocols, which support
-socket abstractions. Since raw sockets are part of the internet socket API, they can only be used to
-generate and receive IP packets.
+There are several command line arguments to have different results:
+-i / --interface: Define the interface to sniff on.
+-f / --filter: Filter to apply to the sniffing.
+-o / --output: Define the name of the output file.
+-s / --show: Show the sniffed packets in terminal.
+-v / --verbose: Verbose mode.
 
 A sample output while connecting google.com is as follows:
 
-![Output](https://i.imgur.com/r9LBBzR.png)
+![Output](https://imgur.com/U37EOYp)
 
 # Installation
 
